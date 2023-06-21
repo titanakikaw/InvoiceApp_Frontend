@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "test@email2.com",
+      "password": "$2a$10$dlzbyjawMIZzKHxhF2WaruApR9uxIgJY11hR9nbj15kRv5B3AT7jO",
+      "fullname": "titan",
+      "id": 1
+    }
+  ],
+  "invoices": [
+    {
+      "userId": 1,
+      "customerName": "testsetst",
+      "invoiceDate": "2023-06-22",
+      "invoiceRef": "0987",
+      "products": [
+        {
+          "productName": "asd",
+          "quantity": "2",
+          "pricePerItem": "23"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
